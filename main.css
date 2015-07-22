@@ -1,28 +1,45 @@
-/* Select by tagname */
 h1 {
-  color: red;
-}
+  color: #414141;
+  font-family: Avant Garde,;
+  font-size: 5em;
+  text-align: center;
+  }
 
-/* Select by classname */
 .header-alt {
-  border-bottom: 2px solid red;
-}
+  border-bottom: dotted #414141;
+  margin-left: auto;
+  margin-right: auto;
+  }
 
-/* Select a single element by its ID */
-#header-primary {
+.header-primary {
   text-transform: uppercase;
-}
+  }
 
-/* Select all H1s AND all .header-alts */
+h4 {
+  color: #C0C0C0;
+  text-align: center;
+  }
+
 h1,
 .header-alt {
-  border-top: 2px solid blue;
+
+  }
+
+h2 {
+  text-align: center;
+  }
+h3 {
+  text-align: center;
 }
 
-/* Use descendent selectors */
+
 div p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 10em;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-style: italic;
-}
+  background-color: #C0C0C0;
+  }
 
-/* Target all p's and a's inside of divs */
 div p, div a {}
